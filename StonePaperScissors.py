@@ -14,7 +14,7 @@ elif(_=="Paper" and computer=="Scissor" ):
     print ("You lost!!!")
 elif(_=="Stone" and computer=="Scissor" ):
     print ("You Won!!!")
-elif(_=="Scissors" and computer=="Stone" ):
+elif(_=="Scissor" and computer=="Stone" ):
     print ("You Lost!!!")
 elif(_=="Stone" and computer=="Paper" ):
     print ("You Lost!!!")
