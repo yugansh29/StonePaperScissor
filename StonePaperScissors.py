@@ -1,8 +1,10 @@
 import random
-#
+
 choices={"Stone":"🪨","Paper":"📄","Scissor":"✂️"}
 computer=random.choice(list(choices))
-_ = input("Enter your choice Stone,Paper,Scissor ")
+_= None
+while (_ not in choices):
+    _ = input("Enter your choice Stone,Paper,Scissor ").capitalize()
 print ("You choose "+ _ )
 print("Computer Choose "+computer)
 
@@ -20,5 +22,11 @@ elif(_=="Stone" and computer=="Paper" ):
     print ("You Lost!!!")
 elif(_=="Paper" and computer=="Stone" ):
     print ("You Won!!!")
+
+
+    
+
+    
+       
 
     
